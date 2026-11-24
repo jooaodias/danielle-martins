@@ -1,32 +1,51 @@
-# React + TypeScript + Vite
+# Danielle Martins — People & Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Site profissional bilíngue (**Português / Inglês**) de **Danielle Martins** (*People & Management | Driving Performance through People*), construído com **React**, **TypeScript** e **Vite**.
 
-Currently, two official plugins are available:
+- **Produção (Netlify):** https://danielle-martins.netlify.app
+- **Repositório (GitHub):** https://github.com/jooaodias/danielle-martins
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
+- **Framework:** React 19 + Vite 8 + TypeScript
+- **Tipografia self-hosted:** `@fontsource/bricolage-grotesque`, `@fontsource/source-sans-3`, `@fontsource/caveat`
+- **Ícones:** `lucide-react`
+- **Lint:** `oxlint`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Estrutura principal
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```text
+danielle-martins/
+├── public/
+│   ├── danielle.jpg      # Foto principal e imagem de preview social (Open Graph)
+│   └── robots.txt
+├── src/
+│   ├── data/profile.ts   # Conteúdo bilíngue (PT / EN), experiências e formação
+│   ├── App.tsx           # Layout, alternância PT/EN, abas acessíveis e ações de contato
+│   └── index.css         # Tokens de cor/tipografia e estilos responsivos
+├── index.html            # SEO, Open Graph (LinkedIn/WhatsApp), Twitter Card e JSON-LD
+├── netlify.toml          # Configuração de build e variáveis para deploy na Netlify
+├── vite.config.ts        # Injeção opcional de VITE_SITE_URL no HTML de build
+├── PRODUCT.md            # Contexto do produto e evidências de origem
+└── DESIGN.md             # Sistema visual e tokens de design
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Rodando localmente
+
+```bash
+pnpm install
+pnpm dev
+```
+
+O servidor local fica disponível em `http://localhost:5173/`.
+
+## Scripts disponíveis
+
+- `pnpm dev`: inicia o servidor de desenvolvimento Vite
+- `pnpm lint`: executa o `oxlint` em `src/`
+- `pnpm build`: valida tipos (`tsc -b`) e gera o bundle de produção em `dist/`
+- `pnpm preview`: pré-visualiza localmente o build de produção
+
+## SEO e previews sociais (LinkedIn / WhatsApp)
+
+As tags Open Graph, Twitter Card e JSON-LD (`Person`) estão configuradas em `index.html`. Durante o build, `vite.config.ts` substitui `%SITE_URL%` pelo valor de `VITE_SITE_URL` (definido em `netlify.toml`), garantindo URLs absolutas em produção para título, descrição e foto (`danielle.jpg`).
