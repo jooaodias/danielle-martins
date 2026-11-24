@@ -1,0 +1,26 @@
+{
+  "world": "human-cobalt-editorial",
+  "tokens": {
+    "color": {
+      "blue-royal": "#16429b",
+      "blue-cobalt": "#2563eb",
+      "blue-deep": "#0f295c",
+      "blue-sky": "#eaf2ff",
+      "blue-mist": "#d7e6ff",
+      "surface-white": "#fafbfd",
+      "ink-primary": "#112240",
+      "ink-muted": "#4b5e7c",
+      "warm-amber": "#f59e0b"
+    },
+    "typography": {
+      "display": "Bricolage Grotesque",
+      "body": "Source Sans 3",
+      "hand": "Caveat"
+    },
+    "radius": {
+      "pill": "9999px",
+      "soft": "28px",
+      "photo": "34px"
+    }
+  }
+}
