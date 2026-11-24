@@ -2,6 +2,9 @@
   command = "pnpm build"
   publish = "dist"
 
+[build.environment]
+  VITE_SITE_URL = "https://danielle-martins.netlify.app"
+
 [[headers]]
   for = "/danielle.jpg"
   [headers.values]
