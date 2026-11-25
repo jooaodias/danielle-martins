@@ -63,7 +63,7 @@ export function App() {
     locale === 'pt'
       ? [
           'People Strategy',
-          'Target Service Cascading',
+          'Target Setting and Cascading',
           'Employee Experience',
           'Cultura Organizacional',
           'Logística Tática & KPIs',
@@ -72,7 +72,7 @@ export function App() {
         ]
       : [
           'People Strategy',
-          'Target Service Cascading',
+          'Target Setting and Cascading',
           'Employee Experience',
           'Organizational Culture',
           'Tactical Logistics & KPIs',

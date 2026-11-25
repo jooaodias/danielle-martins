@@ -94,7 +94,7 @@ export const PROFILE_COPY: Record<Locale, ProfileCopy> = {
       greeting: 'Campinas, SP · Gente e Gestão',
       headline: 'Pessoas sempre foram o meu ponto de partida.',
       subtitle:
-        'Atuo com People Strategy e Target Service Cascading na Ambev, conectando metas, estratégia e o dia a dia das equipes para construir ambientes onde o resultado acontece com consistência.',
+        'Atuo com People Strategy e Target Setting and Cascading na Ambev, conectando metas, estratégia e o dia a dia das equipes para construir ambientes onde o resultado acontece com consistência.',
       linkedinCta: 'Conversar no LinkedIn',
       emailCta: 'Mandar um e-mail',
       photoAlt: 'Danielle Martins sorrindo em evento da Ambev',
@@ -126,7 +126,7 @@ export const PROFILE_COPY: Record<Locale, ProfileCopy> = {
           title: 'People Strategy & TSC',
           place: 'Ambev · Gente e Gestão',
           story:
-            'Hoje desdobro metas no Target Service Cascading e lidero o Comitê de Gente do CSC com foco em Carreira e Desenvolvimento.',
+            'Hoje desdobro metas no Target Setting and Cascading e lidero o Comitê de Gente do CSC com foco em Carreira e Desenvolvimento.',
         },
       ],
     },
@@ -150,7 +150,7 @@ export const PROFILE_COPY: Record<Locale, ProfileCopy> = {
           duration: '8 meses',
           location: 'Jaguariúna, São Paulo',
           highlights: [
-            'Analista de People Strategy responsável pelo Target Service Cascading (TSC), realizando cascateamento, monitoramento, auditorias e fechamento de metas.',
+            'Analista de People Strategy responsável pelo Target Setting and Cascading (TSC), realizando cascateamento, monitoramento, auditorias e fechamento de metas.',
             'Líder do Comitê de Gente do CSC, com foco em Carreira e Desenvolvimento.',
           ],
         },
@@ -226,7 +226,7 @@ export const PROFILE_COPY: Record<Locale, ProfileCopy> = {
       greeting: 'Campinas, SP · People & Management',
       headline: 'People have always been my starting point.',
       subtitle:
-        'I work in People Strategy and Target Service Cascading at Ambev—connecting goals, strategy, and everyday team reality to build environments where results thrive.',
+        'I work in People Strategy and Target Setting and Cascading at Ambev—connecting goals, strategy, and everyday team reality to build environments where results thrive.',
       linkedinCta: 'Connect on LinkedIn',
       emailCta: 'Send an email',
       photoAlt: 'Danielle Martins smiling at an Ambev event',
@@ -258,7 +258,7 @@ export const PROFILE_COPY: Record<Locale, ProfileCopy> = {
           title: 'People Strategy & TSC',
           place: 'Ambev · People & Management',
           story:
-            'Today I cascade goals through Target Service Cascading and lead the CSC People Committee focused on Career & Development.',
+            'Today I cascade goals through Target Setting and Cascading and lead the CSC People Committee focused on Career & Development.',
         },
       ],
     },
@@ -282,7 +282,7 @@ export const PROFILE_COPY: Record<Locale, ProfileCopy> = {
           duration: '8 mos',
           location: 'Jaguariúna, São Paulo',
           highlights: [
-            'People Strategy Analyst responsible for Target Service Cascading (TSC)—executing goal cascading, monitoring, audits, and target closing.',
+            'People Strategy Analyst responsible for Target Setting and Cascading (TSC)—executing goal cascading, monitoring, audits, and target closing.',
             'Leader of the CSC People Committee, focused on Career and Development.',
           ],
         },

@@ -17,11 +17,11 @@ Vite + React + TypeScript (`C:\Users\drica\project\danielle-martins`). Lightweig
 
 ## Product Purpose
 
-Establish a clear, credible, bilingual (Portuguese and English) professional home for **Danielle Martins** (*People & Management | Driving Performance through People*), presenting her trajectory from Law and tactical Logistics into People Strategy, Target Service Cascading (TSC), and Organizational Development, and converting visitor interest into direct contact via LinkedIn or email.
+Establish a clear, credible, bilingual (Portuguese and English) professional home for **Danielle Martins** (*People & Management | Driving Performance through People*), presenting her trajectory from Law and tactical Logistics into People Strategy, Target Setting and Cascading (TSC), and Organizational Development, and converting visitor interest into direct contact via LinkedIn or email.
 
 ## Positioning
 
-Danielle brings a rare intersection of **Law** (PUC-Campinas, Conciliadora), **tactical Logistics & KPI operations** (2.5 years at Ambev), and **People Strategy / Target Service Cascading** (Ambev CSC, Executive MBA in HR at USP/Esalq)—connecting goal cascading, people analytics, and organizational environment directly to consistent business delivery.
+Danielle brings a rare intersection of **Law** (PUC-Campinas, Conciliadora), **tactical Logistics & KPI operations** (2.5 years at Ambev), and **People Strategy / Target Setting and Cascading** (Ambev CSC, Executive MBA in HR at USP/Esalq)—connecting goal cascading, people analytics, and organizational environment directly to consistent business delivery.
 
 ## Operating Context
 
@@ -45,7 +45,7 @@ Danielle brings a rare intersection of **Law** (PUC-Campinas, Conciliadora), **t
 
 - Source CV: `C:\Users\drica\Downloads\Profile.pdf` (LinkedIn export).
 - **Experience at Ambev (3 anos 1 mês):**
-  - *People Analyst* (Apr 2026 – Present, Jaguariúna/SP): People Strategy analyst responsible for Target Service Cascading (TSC)—goal cascading, monitoring, audits, and closing; Leader of the CSC People Committee (Career & Development).
+  - *People Analyst* (Apr 2026 – Present, Jaguariúna/SP): People Strategy analyst responsible for Target Setting and Cascading (TSC)—goal cascading, monitoring, audits, and closing; Leader of the CSC People Committee (Career & Development).
   - *Logistics Analyst* (Nov 2023 – Apr 2026, Jaguariúna/SP): Critical logistics operation processes, KPI management, strategic stakeholder interface; Engagement Facilitator and Leader of the CSC People Committee.
   - *Estagiária / Intern* (Aug 2021 – Aug 2022, Jaguariúna/SP): Leader of the People Pillar in the Intern League, leading intern development initiatives.
 - **Education:**
